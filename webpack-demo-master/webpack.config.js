@@ -31,6 +31,13 @@ module.exports = {
   resolve: {
     modulesDirectories: ['node_modules', 'components']
   },
+  
+  {
+  loader: 'style-loader',
+  options: {
+    sourceMap: true,
+    convertToAbsoluteUrls: true
+  },
 
   plugins: [
     new ExtractTextPlugin('style.css', { allChunks: true }),
