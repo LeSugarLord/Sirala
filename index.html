@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<link rel="stylesheet" href="style/CSS.css" type="text/css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+function slideToggle(el) {
+  var elem = document.getElementById(el);
+  elem.classList.toggle("open");
+}
+</script>
+<script>
+$(document).ready(function() {
+  $('#apercuOpen').click(function() {
+     $('#apercuDropDown #apercuDashboard').slideToggle({ direction: "up" }, 300);
+ $(this).toggleClass('apercuClose'); 
+  }); // end click
+});
+</script>
+        <title>Sirala</title>
+    </head>
+
+    <body>
+	    <header>
+		<section>
+		    <div id = "box" class="slider">
+                 <table class="Partnerthumbs">
+		    <tr>
+                <td class="element"></td>
+                <td class="element"></td> 
+            </tr>
+			<tr>
+                <td class="element"></td>
+                <td class="element"></td> 
+            </tr>
+			<tr>
+                <td class="element"></td>
+                <td class="element"></td> 
+            </tr>
+			<tr>
+                <td class="element"></td>
+                <td class="element"></td> 
+            </tr>
+	             </table>
+	        <div class="line">
+		    </div>
+            </div>
+            <div id="partnerbox">
+            <a onclick="slideToggle('box');" id="partnerlink">PARTENAIRES</a>
+            </div>
+		</section>
+			<div class="headtext"> 
+		        <a href="x">LA FRONTIERE</a>
+		    </div>
+			<div class="headtext"> 
+		        <a href="x">CONNEXION</a>
+		    </div>
+	    </header>
+		<section class="bienvenue">
+		<h1>
+		    BIENVENUE
+		</h1>
+		<div class="textbienvenue">
+		    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam neque erat, fermentum a vehicula vitae, fringilla vitae eros. Etiam tristique congue luctus. Nam quis ligula laoreet, vulputate nulla vitae, aliquet dolor. Nunc fermentum, diam eu dictum lacinia, nulla ex condimentum felis, quis vestibulum sem dui eu lorem. Nam non orci metus. Morbi quis nisi accumsan mi egestas venenatis eu sed leo. Ut in ante quis lectus euismod feugiat ac ac leo. Duis suscipit quam eu velit cursus sodales. Nunc bibendum odio lorem, semper egestas augue dignissim eu.
+        </div>
+        </section>
+		<section class="inscris">
+		    <div>
+			    <a href="x"> INSCRIS-TOI !</>
+			</div>
+        </section>
+		<section>
+		<div id="apercuDropDown">
+    <a id="apercuOpen">APERÇU
+	<div class="lineapercu"></div>
+	</a>
+
+  <div id="apercuDashboard">
+	    <table class="thumbs">
+		    <tr>
+                <td class="thumb"></td>
+                <td class="thumb"></td>
+                <td class="thumb"></td>
+                <td class="thumb"></td> 
+                <td class="thumb"></td>
+                <td class="thumb"></td> 
+                <td class="thumb"></td>
+                <td class="thumb"></td> 				
+            </tr>
+		</table>
+  </div>
+</div>
+		</section>
+        <footer>
+		<div class="headtext"> 
+		    <a href="accueil.html">ACCUEIL</a>
+		</div>
+        </footer>
+    </body>
+</html>
