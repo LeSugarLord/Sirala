@@ -1,0 +1,11 @@
+header
+{
+	width: 100%;
+	min-width: 800px;
+	background: #7c7c7c fixed no-repeat center;
+	height: 50px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	text-align: center
+}

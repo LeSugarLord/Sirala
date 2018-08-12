@@ -1,0 +1,206 @@
+body
+{ 
+    background-color: #E9EBE5;
+	background: url("../images/frontiere/banniere.png") fixed no-repeat center;
+	margin:0;
+    padding:0;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+header
+{
+	width: 100%;
+	min-width: 800px;
+	background: #7c7c7c fixed no-repeat center;
+	height: 50px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	text-align: center;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 2em;
+}
+
+.headtext
+{
+	width: 340px;
+}
+
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+	margin: 0;
+    padding: 0;
+	width: 100%;
+	min-width: 800px;
+	background: #9a5f5f fixed no-repeat center;
+	height: 60px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	z-index: 1;
+	text-align: center;
+}
+
+.bienvenue
+{
+	background: #cacaca;
+	position: fixed;
+	right: 40px;
+	top: 70px;
+	width: 350px;
+	height: 370px;
+}
+
+.textbienvenue
+{
+	padding: 0px 30px 0px 30px;
+}
+
+h1
+{ 
+    text-align: center;
+}
+
+.inscris
+{
+	background: #9a5f5f;
+	position: fixed;
+	right: 90px;
+	top: 470px;
+	width: 250px;
+	height: 80px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SLIDE DOWN MENU */
+
+#box{
+    background: #81b684;
+    width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    overflow:hidden;
+}
+
+.element
+{
+	background: #FFFFFF;
+    width: 100px;
+	height: 35px;
+}
+
+.Partnerthumbs
+{
+	border-spacing: 30px 15px;
+	position: relative;
+	top: 100px;
+}
+
+.line
+{
+	height: 1px;
+	width: 90%;
+	background: #FFFFFF;
+	margin-bottom: -30px;
+	position: relative;
+	top: 100px;
+}
+
+#partnerlink
+{
+	color: white;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2.2em;
+	background: #81b684;
+    width: 300px;
+	border-radius: 0px 0px 50px 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 12px;
+}
+
+.slider {
+    transition:all 0.5s ease-in-out;
+    height:0px;
+}
+.slider.open {
+    height:450px;
+}
+
+/* SLIDE UP MENU */
+
+#apercuDropDown {
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  padding-bottom:55px;
+  z-index: 0;
+}
+#apercuOpen {
+  color: #ececec;
+  cursor: pointer;
+  font-size: 2.2em;
+  text-decoration: none;
+  background: #81B684;
+  width: 200px;
+  height: 30px;
+  margin-left: 100px;
+  padding-bottom: 30px;
+  border-radius: 40px 40px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#apercuDropDown .apercuClose {
+  background-image: url(images/close.png);
+}
+#apercuDropDown #apercuDashboard {
+  display: none;
+}
+
+.thumbs
+{
+	background: #81b684;
+	position: bottom;
+	height: 160px;
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	border-spacing: 30px 15px;
+}
+
+.thumb
+{ 
+    background: #FFFFFF;
+    width: 192px;
+	height: 108px;
+}
+
+.lineapercu
+{
+	height: 1px;
+	width: 90%;
+	background: #FFFFFF;
+	margin-bottom: -30px;
+	position: relative;
+	top: 8px;
+}
